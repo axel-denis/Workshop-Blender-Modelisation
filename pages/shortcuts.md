@@ -10,5 +10,22 @@ If you are looking for the "shorcut version" of a menu, just hover over it and B
 
 ### Rotate point of view
 Middle mouse button click, then move your mouse.
-![mouse](https://cdn.discordapp.com/attachments/588459583161368595/1080069195921895504/2023-02-28_10-59-43.mp4)
-([don't have a mouse with a middle button ?](./emulate_mouse.md))
+([Don't have a mouse with a middle button ?](./emulate_mouse.md))
+
+### Select an object
+left click (did you really needed me for that ?)
+
+### Move an object
+**G** (G for Grab)
+
+### Rotation
+**R**
+
+### Scale
+**S**
+
+### Important note
+Moving, Rotating and Scalling can be counter intuitive at the begining because they all depend on your field of view. This can seems unnatural. But, Blender has you covered ! You can snap your modification to one (or many) axes of the world (X, Y or Z)
+Try it ! Select an object, press G, THEN press X (or Y, or Z). The object will move only on the selected axis.
+
+Press `SHIFT + [X,Y,Z]` to select both BUT the axis given.
