@@ -51,10 +51,10 @@ Since this is the perfect case, we'll begin with this ! Find in the [reference](
 We will decompose it in smaller parts :
 - Add an image ! We showed you how to add an object. An image is an object ! Summon the Add Object menu, and look for Image > Reference.
 - Align your image with an axis ! The easiest way is to reset its rotation with `ALT+R`.
-- Now, move it on the good axis. ([Need a reminder ?](./pages/shortcuts.md))
-<p align="right">
+  <p align="right">
     <img src="./assets/axis.png" class="floatright">
   </p>
+- Now, move it on the good axis. ([Need a reminder ?](./pages/shortcuts.md))
 - Final step, scale your reference to match the cube ! For this, align your view to the good axis with the direction ball. Just click on the axis that you want.
   Now you should see something like the first image. Scale the image (and not the cube, the cube is PERFECT) to match the cube. Exactly like you can see on the second image.
   <p align="center">
