@@ -53,7 +53,8 @@ We will decompose it in smaller parts :
 - Align your image with an axis ! The easiest way is to reset its rotation with `ALT+R`.
 - Now, move it on the good axis. ([Need a reminder ?](./pages/shortcuts.md))
 - Final step, scale your reference to match the cube ! For this, align your view to the good axis with the direction ball. Just click on the axis that you want.
-  Now you should see something like the first image. Scale the image (and not the cube, the cube is PERFECT) to match the cube. Exactly like you can see on the second image. ![](./assets/axis.png)
+  Now you should see something like the first image. Scale the image (and not the cube, the cube is PERFECT) to match the cube. Exactly like you can see on the second image.
+![](./assets/axis.png)
   <p align="center">
     <img src="./assets/before_scale.png" width="300">
     <img src="./assets/after_scale.png" width="300">
