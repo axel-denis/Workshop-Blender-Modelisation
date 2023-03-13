@@ -74,8 +74,11 @@ Now, just don't forget that you moved you cube only on one axis, because of your
 Their is at least three differents main tools of Blender that we will discover today. You have already discovered the main viewport, to add and move objects. We will now cover the Modifiers, and we will finish by the Edition mode.
 
 ### What are the Modifiers ?
+
 Modifiers are like a set of littles programs that you can execute on your mesh.
 Modifiers can be added and removed at anytime, this is their main strenght. They do not modify the real structure of your mesh, only the final one.
 Let's start with an example, on the left you can see a sphere, and on the right you can see a sphere with the [Subdivision Surface Modifier](https://docs.blender.org/manual/en/latest/modeling/modifiers/generate/subdivision_surface.html). (I strongly advise you to check this page.)
 ![](./assets/subdivision_modifier.png)
 As I said, the strenght of modifiers is that they are not definitive, this is called **non destructive modeling**. I can at all time change my mind and disable this modifier, and recover my low poly sphere.
+Thanks to this, if I enter the edit mode (we will see this later on), I will see and edit the original shape of the sphere, and the modifier will be reexecuted after. ![](./assets/subdivision_modifier2.png)
+
