@@ -33,13 +33,13 @@ So, we want to make this beautiful cube, right ? The first part of the creation 
 The blocking part is when you create the overall form of your objective with very simple meshs. You are just trying to match global proportions. Thus, when you will be creating your final more advanced mesh, you will have guidelines, and you will not wait until the end to discover that your proportions are messed up !
 
 The references part is used when you are trying to recreate an existing object (this is the case here !). The goal is to add and align at least 3 images of the object you are trying to create : Top, Front, Side. Then, when you'll be doing your modeling, your goal will be to reproduce what you see, and it will be easier to align your mesh parts to match the wanted visual !
-Since this is the perfect case, we'll begin with this ! Find in the [reference](./reference/) folder the reference image of the Companion Cube. Our case will be very easy, Side, Top and Front are the same, this is a perfectly symetrical cube ! Don't bother to add 3 reference image on the 3 main axis, just add one, align it with an axis, that's all you need.
+Since this is the perfect case, we'll begin with this ! Find in the [reference](./reference/) folder the reference image of the Companion Cube. Our case will be very easy as Side, Top and Front are the same, this is a perfectly symetrical cube ! Don't bother to add 3 reference image on the 3 main axis, just add one, align it with an axis, that's all you need.
 
 ##### Need help on the process ?
 We will decompose it in smaller parts :
-- Add an image ! We showed you how to add an object. An image is an object ! Summon the Add Object menu, and look for Image > Reference. (the image is here : [reference](./reference/ReferenceFace.png))
+- Add an image ! We showed you how to add an object. An image is an object ! Summon the Add Object menu, and look for Image > Reference. (Download the image here : [reference](./reference/ReferenceFace.png))
 - Align your image with an axis ! The easiest way is to reset its rotation with `ALT+R`.
-- Now, move it on the good axis. ([Need a reminder ?](./pages/shortcuts.md))
+- Now, move it on the good axis. ([Need a reminder ?](./pages/shortcuts.md)). It's better for the reference not to intersect the cube.
 - Final step, scale your reference to match the cube ! For this, align your view to the good axis with the direction ball. Just click on the axis that you want.
   Now you should see something like the first image. Scale the image (and not the cube, the cube is PERFECT) to match the cube. Exactly like you can see on the second image.<br/>
 <p align="right">
@@ -51,3 +51,15 @@ We will decompose it in smaller parts :
   </p>
 
 Tadaaam ! Great, you have your reference image !
+
+## Let's start modeling !
+The main structure of the Companion cube is indeed a cube, but we already have this one. We will now add more geometry to create the corners of our cube.
+
+For this, start by creating a new cube ([Need a reminder ?](./pages/shortcuts.md)) and scale it down a little just to differenciate the two cubes.
+
+Now we want to move this new cube to one corner of our main cube. We have more than one solution for this. All are pretty simple when you're used to them, but can be difficult at first, so let's do it one step at a time.
+
+**Press N** : this will toogle a new menu that display useful data about the selected object. The first field is "Position". If you haven't edited your cube, it's position should be (0,0,0).
+Note that you can also edit the data here, and knows what ? Our main cube (should) have a side of two metters ! (Our cube is exactly 2m\*2m\*2m tall). I'm not an math expert, but if we could move our cube 1m in all directions, it should be exactly on a corner of our main cube. GUESS WHAT ? YEAH WE CAN DO THAT. Just select every position field in this menu, and set it to 1. Tadaaaaaaaam, ahahah our cube is exactly where it should be !
+Buuuut, I hear you asking, "what if", what if our main shape is not a cube, have not an easy dimension, and what if I can't move my cube just one metter in all axes... How can I do ?
+Well, there is a very used method that you can learn [here](./pages/shortcuts.md). It's not on this main page because I wanted it to be pretty simple, but I strongly advise you to learn it, this is the real way to snap objects to a precise location in Blender.
