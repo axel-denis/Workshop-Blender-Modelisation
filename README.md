@@ -35,21 +35,9 @@ The blocking part is when you create the overall form of your objective with ver
 The references part is used when you are trying to recreate an existing object (this is the case here !). The goal is to add and align at least 3 images of the object you are trying to create : Top, Front, Side. Then, when you'll be doing your modeling, your goal will be to reproduce what you see, and it will be easier to align your mesh parts to match the wanted visual !
 Since this is the perfect case, we'll begin with this ! Find in the [reference](./reference/) folder the reference image of the Companion Cube. Our case will be very easy, Side, Top and Front are the same, this is a perfectly symetrical cube ! Don't bother to add 3 reference image on the 3 main axis, just add one, align it with an axis, that's all you need.
 
-<style>
-.green {
-    color: green;
-    display: inline-flex;
-    font-weight:700;
-    font-size: 30px;
-}
-.floatright {
-  float: right;
-}
-</style>
-
 ##### Need help on the process ?
 We will decompose it in smaller parts :
-- Add an image ! We showed you how to add an object. An image is an object ! Summon the Add Object menu, and look for Image > Reference.
+- Add an image ! We showed you how to add an object. An image is an object ! Summon the Add Object menu, and look for Image > Reference. (the image is here : [reference](./reference/ReferenceFace.png))
 - Align your image with an axis ! The easiest way is to reset its rotation with `ALT+R`.
 - Now, move it on the good axis. ([Need a reminder ?](./pages/shortcuts.md))
 - Final step, scale your reference to match the cube ! For this, align your view to the good axis with the direction ball. Just click on the axis that you want.
