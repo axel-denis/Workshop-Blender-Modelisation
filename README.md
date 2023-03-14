@@ -80,5 +80,44 @@ Modifiers can be added and removed at anytime, this is their main strenght. They
 Let's start with an example, on the left you can see a sphere, and on the right you can see a sphere with the [Subdivision Surface Modifier](https://docs.blender.org/manual/en/latest/modeling/modifiers/generate/subdivision_surface.html). (I strongly advise you to check this page.)
 ![](./assets/subdivision_modifier.png)
 As I said, the strenght of modifiers is that they are not definitive, this is called **non destructive modeling**. I can at all time change my mind and disable this modifier, and recover my low poly sphere.
-Thanks to this, if I enter the edit mode (we will see this later on), I will see and edit the original shape of the sphere, and the modifier will be reexecuted after. ![](./assets/subdivision_modifier2.png)
+Thanks to this, if I enter the edit mode (we will see this later on), I will see and edit the original (simple) shape of the sphere, and the modifier will be reexecuted after.
+<p align="center">
+    <img src="./assets/subdivision_modifier2.png" width="60%">
+</p>
 
+There is plenty of modifiers in Blender, you can check the doc [here](https://docs.blender.org/manual/en/latest/modeling/modifiers/index.html).
+Today, we are going to use the [Mirro modifier](https://docs.blender.org/manual/en/latest/modeling/modifiers/generate/mirror.html). Because, as I said before, our cube is symetrical. So it corners are too.
+Select the corner, then, on the right of your screen, locate the modifiers tab. ![](./assets/modifiers_tab.png)
+<p align="center">
+    <img src="./assets/modifiers_tab2.png" height="500">
+    <img src="./assets/mirror_modifier.png" height="500">
+</p>
+Now, with the corner selected, click `Add Modifier` > `Mirror`
+
+Oh, waw, no difference "before / after" ! Why ?!
+Simply because the corner is a symetrical cube, and is mirrored onto itself. We need to change his mirror point. To do that, click the pipette icon and click on your main large cube to select it. Now you should see spawn another corner. But, we want 8 of them, not two, so we need to mirror them on all axis and not just one. You can do that by selecting all the buttons in the "Axis" field. (shift)
+
+Great ! Now you should have something like this :
+#### mettre image ici
+
+## Edition mode
+#### Introduction to the selection mode :
+The edition mode is the heart of Blender, because, well, it enables you to edit meshs ! Select the corners of your Companion Cube, and press `TAB` to enter Edit Mode.
+Now, you should see your cube differently. At each corner, you can see a point (called a vertex). Between them, you can see edges, and all of them create what's called a face.
+You should already now the following if you listened to the live modeling, but if not, I'll explain it here quickly :
+You need to master the differents selections modes to be productive in the edition mode. As I said, a mesh is composed by vertices, edges that connects vertices, and faces that are composed of edges. You can change your selection mode by clicking on 1,2 or 3 (NOT on the numpad). Or, by clicking on this menu on the top left : ![](./assets/selection_modes.png)
+Selections modes are cross compatibles to the smaller ones, let me explain.
+If you select a face in face mode, you can switch back to edge or vertex mode, because a face is the "largest" selection possible. On the other hand, if you select only one edge or one vertex, switching to face mode will discard your actual selection.
+Know that `CTRL-Z` incudes the selection, so if you discard something at one point, you can `CTRL-Z` it back.
+
+#### Let's do it
+Edition mode enables you to shape your mesh the way you want with the help of a lot of tools. *If you want to test what I am going to say, why not create a new mesh and test edition mode on it ?*
+The mains tools to work with are in fact tools that you already know : Move (**G**), Rotate (**R**) and Scale (**S**).
+Another tool is the Extrusion Tool, that you can activate by selecting a face (in fact you can also do it with a vertex or an edge, but let's keep it simple), and pressing **E**. You will be able to make what's is called an extrusion (yeah tools are correctly named). Just click when you're finished and hop, new face ! We are not really going to use it today, but it's a monument too great to be missed.
+The last one we are going to discover today is the Bevel tool.
+Select an edge of your test mesh, and click **B**. Move your mouse and click when finished. Bam, flat bevel ! Want a round bevel ? `CTRL-Z` and do it another time, but this time scroll with your mouse wheel (slowly) to increase subdivisions.
+Just after you made your bevel, notice the little menu at the bottom left of your screen. If you open it, you have a lot of options that will be very useful when we will want to make more complex bevels.
+
+Now, follow this video give a real shape to the corners of your cube.
+
+### vidéo ici
