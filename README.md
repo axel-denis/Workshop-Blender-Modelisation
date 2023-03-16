@@ -66,7 +66,7 @@ Well, there is a very used method that you can learn [here](./pages/pointerMove.
 
 So, now, let's match this new cube to the reference image. Snap your view to an axis, and use **G** and **S** to move and scale your li'l cube.
 
-#### mettre image ici
+![](./assets/cube_edges.png)
 
 Now, just don't forget that you moved you cube only on one axis, because of your point of view. Use the **N** menu (it's called the *Sidebar* by the way) to change the location of the missing axis.
 
@@ -121,3 +121,4 @@ Just after you made your bevel, notice the little menu at the bottom left of you
 Now, follow this video give a real shape to the corners of your cube.
 
 https://user-images.githubusercontent.com/91873203/225725608-9d5d3a0e-cf63-40d5-bb47-371d617e0957.mp4
+
