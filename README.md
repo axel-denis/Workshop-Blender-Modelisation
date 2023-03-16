@@ -120,4 +120,4 @@ Just after you made your bevel, notice the little menu at the bottom left of you
 
 Now, follow this video give a real shape to the corners of your cube.
 
-![](./assets/bevel_cube_edges.mp4)
+<video src='./assets/bevel_cube_edges.mp4' width=500 />
