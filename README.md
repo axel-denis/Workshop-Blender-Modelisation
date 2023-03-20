@@ -122,3 +122,36 @@ Now, follow this video give a real shape to the corners of your cube.
 
 https://user-images.githubusercontent.com/91873203/225725608-9d5d3a0e-cf63-40d5-bb47-371d617e0957.mp4
 
+You can see that I used the bottom left menu just after my bevel to change it's shape. You will see this menu pretty often, after a modification or after adding a mesh. It enable do edit what you just made, and will disapear forever if you do anything else.
+
+The companion cube is starting to appear !
+
+#### New tools
+
+We created the corners, but now we need to add the littles part in-between.
+
+Same approach, create one of them, scale it, align it to the reference, and so on. I'll not guide you on this part as much as I did before.
+
+This time, you will notice that these corners are not real "corners" but more at an intermediate position. Thus, their position is equal to 0 on one of the axis. Because of this, it's useless to mirror this part on all the axis like we did before, just enable the two useful ones. We will worry about the missing parts later on.
+
+You should now have something like this :
+### image ici
+
+Let's now curve this new piece to follow the circle that the big corners make.
+I'll introduce you to a new tool of the edition mode, the **LoopCut**, that you can use with `CTRL-R`. Move your mouse on an edge and you should see a yellow line. You can see that this line make it's path all around your cube, this is called an Edge Loop. If you (slowly) scroll with your mouse, you can choose the number to add.
+
+### image ici (loopcut)
+
+For this time, let's add 5 or 7 of then (an odd number will help us to have a good shape).
+
+Let's now discover the **proportional editing** that enable you to edit things with a radius of influence like you can see on this video :
+
+### vidéo ici sur le proportional editing
+
+And, let's end with the **Hide** tool (`H`), that you can use to hide vertices. It's very useful because hidden vertices are not subject to proportionnal edition, so you can ensure to limit your effect only on concerned vertices.
+
+Now look at this video and try to understaind (and replicate) what I'm doing.
+
+### vidéo ici
+
+Again, don't hesitate to ask us questions, we are here for you :)
