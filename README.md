@@ -163,3 +163,16 @@ First, let's learn to apply modifiers.
 Some important things to note here :
 **Most of the time, you _dont want_ to apply modifiers**, because it transform a not definitive operation into real geometry. Understaind that you can go back (exept `CTRL-Z`, but `CTRL-Z` it's note infinite). But sometime, you just want to transform you modifier into real geometry like this is our case here. Why ? Try to rotate your middle corner. You will see that the mirror modifier makes a complete mess. So we will apply it and change the origin point of our object (more on that latter on).
 If you want to save a backup of your project, now is a good time. `File > Save a copy`
+
+So ! Select your object and go to the modifiers tab. You should see your mirror modifier. Click on the little arrow and click *Apply*
+Bam, now if you rotate your object, it's not perfect, but the mirror modifier isn't interferring anymore.
+So why isn't this object rotating properly ? Because of it's origin point. When an object is selected, you should see an orange point on the center of the screen. It's this object's origin point. The origin of a 3D object is like the origin of a geometrical figure, all evolves around it. We need to change it's position to the center of the object.
+Right click your object > set origin > origin to geometry
+It will set the origin on the center of gravity of your object, and as our is perfectly symmetrical, it will be on the center. You can try other modes !
+
+Now, duplicate your object with `ALT-D` and rotate it with `R + Axis` on 90°. (If you have a numpad, you can type 90 on the numpad directly ! Otherwise use the `N` sidebar)
+
+And do it once again to cover the last missing axis.
+
+> In Blender there is two mode of duplication. `CTRL-D` that litteraly duplicate, and `ALT-D` that makes a linked copy (like a pointer) so you can edit one of the copies and apply this edition on the others.
+
