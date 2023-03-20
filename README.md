@@ -155,3 +155,11 @@ Now look at this video and try to understaind (and replicate) what I'm doing.
 ### vidéo ici
 
 Again, don't hesitate to ask us questions, we are here for you :)
+
+### Near to the end
+Congratulations, you reached this part !
+We're done with the edition mode, now we will finish our cube modeling by replicating our "middle corners" to each missing side of the cube.
+First, let's learn to apply modifiers.
+Some important things to note here :
+**Most of the time, you _dont want_ to apply modifiers**, because it transform a not definitive operation into real geometry. Understaind that you can go back (exept `CTRL-Z`, but `CTRL-Z` it's note infinite). But sometime, you just want to transform you modifier into real geometry like this is our case here. Why ? Try to rotate your middle corner. You will see that the mirror modifier makes a complete mess. So we will apply it and change the origin point of our object (more on that latter on).
+If you want to save a backup of your project, now is a good time. `File > Save a copy`
