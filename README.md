@@ -98,7 +98,7 @@ Select the corner, then, on the right of your screen, locate the modifiers tab. 
 </p>
 Now, with the corner selected, click `Add Modifier` > `Mirror`
 
-Oh, waw, no difference "before / after" ! Why ?!
+Oh, no difference "before / after" ! Why ?
 Simply because the corner is a symetrical cube, and is mirrored onto itself. We need to change his mirror point. To do that, click the pipette icon and click on your main large cube to select it. Now you should see spawn another corner. But, we want 8 of them, not two, so we need to mirror them on all axis and not just one. You can do that by selecting all the buttons in the "Axis" field. (shift)
 
 Great ! Now you should have something like this :
@@ -132,7 +132,7 @@ The companion cube is starting to appear !
 
 #### New tools
 
-We created the corners, but now we need to add the littles part in-between.
+We created the corners, but now we need to add the littles parts in-between.
 
 Same approach, create one of them, scale it, align it to the reference, and so on. I'll not guide you on this part as much as I did before.
 
