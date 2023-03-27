@@ -45,12 +45,16 @@ We will decompose it in smaller parts :
 <p align="right">
     <img src="./assets/axis.png" width="75">
 </p>
-  <p align="center">
-    <img src="./assets/before_scale.png" width="300">
-    <img src="./assets/after_scale.png" width="300">
-  </p>
-
+<p align="center">
+  <img src="./assets/before_scale.png" width="300">
+  <img src="./assets/after_scale.png" width="300">
+</p>
 Tadaaam ! Great, you have your reference image !
+</br>
+</br>
+<p align="center">
+  <img src="./assets/result_refs.png" width="300">
+</p>
 
 ## Let's start modeling !
 The main structure of the Companion cube is indeed a cube, but we already have this one. We will now add more geometry to create the corners of our cube.
@@ -60,8 +64,8 @@ For this, start by creating a new cube ([Need a reminder ?](./pages/shortcuts.md
 Now we want to move this new cube to one corner of our main cube. We have more than one solution for this. All are pretty simple when you're used to them, but can be difficult at first, so let's do it one step at a time.
 
 **Press N** : this will toogle a new menu that display useful data about the selected object. The first field is "Position". If you haven't edited your cube, it's position should be (0,0,0).
-Note that you can also edit the data here, and knows what ? Our main cube (should) have a side of two metters ! (Our cube is exactly 2m\*2m\*2m tall). I'm not an math expert, but if we could move our cube 1m in all directions, it should be exactly on a corner of our main cube. GUESS WHAT ? YEAH WE CAN DO THAT. Just select every position field in this menu, and set it to 1. Tadaaaaaaaam, ahahah our cube is exactly where it should be !
-Buuuut, I hear you asking, "what if", what if our main shape is not a cube, have not an easy dimension, and what if I can't move my cube just one metter in all axes... How can I do ?
+Note that you can also edit the data here, and knows what ? Our main cube (should) have a side of two metters ! (Our cube is exactly 2m\*2m\*2m tall). I'm not an math expert, but if we could move our cube 1m in all directions, it should be exactly on a corner of our main cube. Guess what ? YEAH, we can do that. Just select every position field in this menu, and set it to 1. Tadaaaam, our cube is exactly where it should be !
+But, I hear you asking, "what if", what if our main shape is not a cube, have not an easy dimension, and what if I can't move my cube just one metter in all axes... How can I do ?
 Well, there is a very used method that you can learn [here](./pages/pointerMove.md). It's not on this main page because I wanted it to be pretty simple, but I strongly advise you to learn it, this is the real way to snap objects to a precise location in Blender.
 
 So, now, let's match this new cube to the reference image. Snap your view to an axis, and use **G** and **S** to move and scale your li'l cube.
