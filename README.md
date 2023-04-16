@@ -165,7 +165,9 @@ And, let's end with the **Hide** tool (`H`), that you can use to hide vertices. 
 
 Now look at this video and try to understaind (and replicate) what I'm doing.
 But before, don't forget to activate X-Ray ! If you forget to do it, you will select only visible vertices (that's not what we want, we want to be able to select two vertices perfectly aligned despite only being able to see the closest one). To be sure to select all vertices, use box selection (left click and drag). Also, it's not displayed on the video, but each time I scale or move something, I use an axis (`G+Z` by example). Don't forget to use them.
+
 https://user-images.githubusercontent.com/91873203/232342489-df3b1435-7763-405e-842b-b90681827a78.mp4
+
 Again, don't hesitate to ask us questions, we are here for you :)
 
 ### Near to the end
