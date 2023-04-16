@@ -213,7 +213,7 @@ You should have something like this :
 
 Now, try to replicate what I'm doing in the next video. It's all things you used today.
 
-https://user-images.githubusercontent.com/91873203/232346877-f7769e70-2a69-4b7e-b27a-5858cf58c3de.mp4
+https://user-images.githubusercontent.com/91873203/232346980-80cf9a54-5e6e-4e8f-ae07-ed635f5fde96.mp4
 
 Now that you have that, let's press `ALT-E` and do Extrude faces along normals. This will extrude all selected faces in the right way :)
 Move your mouse, then left click when the faces are where they should be (according to the reference and your imagination)
