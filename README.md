@@ -157,17 +157,15 @@ Left click to add them. Then, you can move them if you move your mouse, but we d
 
 For this time, let's add 5 or 7 of then (an odd number will help us to have a good shape).
 
-Let's now discover the **proportional editing** that enable you to edit things with a radius of influence like you can see on this video (don't forget to activate x-ray to select all needed vertices despite not seeing them at first) :
+Let's now discover the **proportional editing** that enable you to edit things with a radius of influence like you can see on this video :
 
-### vidéo ici sur le proportional editing
+https://user-images.githubusercontent.com/91873203/232342467-55d648ed-fd8a-49ac-9988-993c429665ea.mp4
 
 And, let's end with the **Hide** tool (`H`), that you can use to hide vertices. It's very useful because hidden vertices are not subject to proportionnal edition, so you can ensure to limit your effect only on concerned vertices.
 
 Now look at this video and try to understaind (and replicate) what I'm doing.
 But before, don't forget to activate X-Ray ! If you forget to do it, you will select only visible vertices (that's not what we want, we want to be able to select two vertices perfectly aligned despite only being able to see the closest one). To be sure to select all vertices, use box selection (left click and drag). Also, it's not displayed on the video, but each time I scale or move something, I use an axis (`G+Z` by example). Don't forget to use them.
-
-### vidéo ici
-
+https://user-images.githubusercontent.com/91873203/232342489-df3b1435-7763-405e-842b-b90681827a78.mp4
 Again, don't hesitate to ask us questions, we are here for you :)
 
 ### Near to the end
