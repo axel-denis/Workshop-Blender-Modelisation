@@ -193,3 +193,47 @@ And do it once again to cover the last missing axis.
 ![](./assets/internal_corners_made.png)
 
 
+Now, this is the time for bevels ! As on our reference, the shape of the companion cube is more complex thanks to bevels, so let's add them.
+As you see if you look carefully at the shape, bevels take differentes shapes and width, this is a little bit complex for this workshop, so we will stay simple for now, with one bevel by mesh.
+For this, let's use the bevel modifier !
+Select one corner, and add the Bevel modifier.
+<p align="left">
+    <img src="./assets/bevel_modifier_1.png" width="49%">
+</p>
+
+As you can see if you change the amount, you can't set it freely. Why ? It's long to explain, but understaind that the bevel takes effect on every angle superior to the Angle section.
+And bevel clamp overlap, so if you ask too much bevel, it will stop growing to avoid self intersection. And currently, INTERIOR angles (the one that we made IN the cube) are superior to 30°, so they are activating, and clamping. To avoid this, let's set the Angle field to 89°.
+Now you can set the right Amount value.
+
+Let's do the same for the others little edges (the one between the corners), but before we do anything, select one of them, and do `CTRL-A` > Apply Scale. It's because scale act like a modifier in Blender, so it could interfer with our bevel modifier. To avoid it, individually apply the scale of your edges. If you are prompted "Create new objects data users and apply modifications", click on it.
+Now, set the bevel on one of the edges, and same thing as before, Angle to 89°.
+Once you're done, select the others little edges (`SHIFT` to select many), and select the beveled one in last, so it's yellow and not orange (this means it's the "active" object, and not one of the "selected" objects). Now, do `CTRL-L` > Copy Modifiers. Tadam ! Now, the bevel modifier is copied on every selected mesh.
+You should have something like this :
+![](./assets/all_beveled.png)
+
+Now, try to replicate what I'm doing in the next video. It's all things you used today.
+## video ici
+
+Now that you have that, let's press `ALT-E` and do Extrude faces along normals. This will extrude all selected faces in the right way :)
+Move your mouse, then left click when the faces are where they should be (according to the reference and your imagination)
+If you want, you can add a little bevel modifier (very small bevel) to your cube to improve edge realism !
+
+Now, let's add the last part, cylinders to the center of our cube faces.
+Use what you know to add a cylinder, scale it down on it's height, and bevel the top and bottom face to have something like this :
+<p align="center">
+    <img src="./assets/heart_cylinder.png" height=250px">
+</p>
+
+Now scale it and place it on your cube, then mirror it (Tips: this time, you need to mirror it on one axis only). Then, duplicates two times your object, and use the cursor rotation method (explained [here](./pages/pointerMove.md)) to rotate your cylinder the right way. It's a method a little bit advanced, but I think that now is the right time to learn it. If you don't want to, you can apply the mirror modifier and change the object origin point like we did before.
+
+And nooooow, appreciate your work :)
+
+
+#### The End
+Last bonus, click on an object and select Shade Auto Smooth to get rid of visible faces ;)
+
+![](./assets/finished.png)
+
+If you are a lot to be here early, I will make a new live modeling to show you how to give color to your object !
+If not, then don't forget to register to my next workshop on texturing in Blender !
+Thank you for registering to this one, don't hesitate to give me feedback, it's my first workshop !
