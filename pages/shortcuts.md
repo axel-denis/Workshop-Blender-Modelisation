@@ -30,6 +30,19 @@ Try it ! Select an object, press G, THEN press X (or Y, or Z). The object will m
 
 Press `SHIFT + [X,Y,Z]` to select both BUT the axis given.
 
+## Selection
+You can select an object with `Left Click`
+If you want to select many objects, you can use `Shift`
+
+### Active element
+You should notice if you select more that one object that one of them is surrounded by a larger orange than the others, it's because it is the **active** object, and the others are the **selected** objects. This mean that if you need to see some properties (like the position of the current object by example), these will be the selected object's ones. Same if you need to copy some properties in-between objects, it will go from the active object to the selected ones.
+
+<p align="center">
+    <img src="../assets/selection_active.png" width=50%">
+</p>
+
+*The cube and the torus are selected, but the sphere is active.*
+If you need to change your active object, just deselect it then select it again (always pressing shift).
 
 ## Edition Mode
 You can switch to Edition Mode with `TAB`
@@ -41,18 +54,26 @@ If you have transparency mode activated, you should see points placed on the cen
 
 In some not so rare cases, two vertices are perfectly aligned in the edition mode. Without transparency you can only select the nearest, but with transparency the selection can be random. So, to select both vertices, use rectangle selection by left clicking somewhere and dragging on your vertices. Both will be selected !
 
+<p align="center">
+    <img src="../assets/selection_vertices.png" width=32%">
+    <img src="../assets/selection_edges.png" width=32%">
+    <img src="../assets/selection_faces.png" width=32%">
+    <img src="../assets/selection_vertices_trsp.png" width=32%">
+    <img src="../assets/selection_edges_trsp.png" width=32%">
+    <img src="../assets/selection_faces_trsp.png" width=32%">
+</p>
 
+### Advanced selection
+If you want to select many vertices, edges or faces, you can use `Shift`
+If you want to select all vertices connecting one vertices to an other, use `CTRL`
+If you want to select many vertices at the same time, **click and drag** to do a box selection :
+<p align="center">
+    <img src="../assets/selection_shift.png" width=32%">
+    <img src="../assets/selection_ctrl.png" width=32%">
+    <img src="../assets/box_selection.png" width=32%">
+</p>
 
+*Shift, Ctrl and Box selection*
+(Works with vertices, but also edges and faces)
 
-
-
-
-
-
-
-
-
-
-
-
-
+[<<< Back to the main page](../README.md)

@@ -227,7 +227,7 @@ Use what you know to add a cylinder, scale it down on it's height, and bevel the
 
 Now scale it and place it on your cube, then mirror it (Tips: this time, you need to mirror it on one axis only). Then, duplicates two times your object, and use the cursor rotation method (explained [here](./pages/pointerMove.md)) to rotate your cylinder the right way. It's a method a little bit advanced, but I think that now is the right time to learn it. If you don't want to, you can apply the mirror modifier and change the object origin point like we did before.
 
-And nooooow, appreciate your work :)
+And now, appreciate your work :)
 
 
 #### The End

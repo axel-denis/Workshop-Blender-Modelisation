@@ -18,4 +18,4 @@ To differenciate active from selected, check this image :
 ![](../assets/selection.png)
 Here, we have the Active, in light orange, the selected in dark orange, and a last cube that is not in the selection.
 
-<<< [Back to the main page](../README.md)
+[<<< Back to the main page](../README.md)
