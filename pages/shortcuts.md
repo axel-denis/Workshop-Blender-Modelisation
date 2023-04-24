@@ -12,6 +12,10 @@ If you are looking for the "shorcut version" of a menu, just hover over it and B
 Middle mouse button click, then move your mouse.
 ([Don't have a mouse with a middle button ?](./emulate_mouse.md))
 
+### Center view on
+When moving in the 3D space, you want to be able to quickly center your view on an object. For this, you can select an object, then use the "." of the NUMPAD if you have a numpad. If not, you can click the "²" key, then select "View Selected".
+![image](https://user-images.githubusercontent.com/91873203/233940116-a36a4724-c29c-4822-9e61-9f646c3aa1d8.png)
+
 ### Select an object
 left click (did you really needed me for that ?)
 
