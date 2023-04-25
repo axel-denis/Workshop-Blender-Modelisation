@@ -65,7 +65,7 @@ Now we want to move this new cube to one corner of our main cube. We have more t
 
 Use the X,Y,Z gimball at the top right of your screen to snap your view to one direction (click on one X dot, by example)
 Now, you are seeing your scene in the "ortographic" way (there is no perspective). Also, if you move something, it will be dependent of your view (as we've seen during the live modeling). So, if your on the X axis, moving an object will only have effect on the Y and Z axis.
-Before you do anything, select x-ray (transparency) mode by using `ALT-Z` or the little ![](./assets/transparency.png) button
+Before you do anything, select x-ray (transparency) mode by using `ALT-Z` or the little ![](./assets/transparency.png) button.
 Now, try to align and scale your cube to the reference, like so :
 <p align="center">
   <img src="./assets/aligned_to_ref.png" height="300">
@@ -119,7 +119,7 @@ Know that `CTRL-Z` incudes the selection, so if you discard something at one poi
 Use `TAB` to enter and exit the Edition Mode
 
 #### Let's do it
-Edition mode enables you to shape your mesh the way you want with the help of a lot of tools. *If you want to test what I am going to say, why not create a new mesh and test edition mode on it ?*
+Edition mode enables you to shape your mesh the way you want with the help of a lot of tools. *If you want to test this next part, why not create a new mesh and test edition mode on it ?*
 The mains tools to work with are in fact tools that you already know : Move (**G**), Rotate (**R**) and Scale (**S**).
 Another tool is the Extrusion Tool, that you can activate by selecting a face (in fact you can also do it with a vertex or an edge, but let's keep it simple), and pressing **E**. You will be able to make what's is called an extrusion (yeah tools are correctly named). Just click when you're finished and hop, new face ! We are not really going to use it today, but it's a monument too great to be missed.
 The last one we are going to discover today is the Bevel tool.
@@ -225,7 +225,7 @@ Use what you know to add a cylinder, scale it down on it's height, and bevel the
     <img src="./assets/heart_cylinder.png" height=250px">
 </p>
 
-Now scale it and place it on your cube, then mirror it (Tips: this time, you need to mirror it on one axis only). Then, duplicates two times your object, and use the cursor rotation method (explained [here](./pages/pointerMove.md)) to rotate your cylinder the right way. It's a method a little bit advanced, but I think that now is the right time to learn it. If you don't want to, you can apply the mirror modifier and change the object origin point like we did before.
+Now scale it and place it on your cube, then mirror it (Tip: this time, you need to mirror it on one axis only). Then, duplicates two times your object, and use the cursor rotation method (explained [here](./pages/pointerMove.md)) to rotate your cylinder the right way. It's a method a little bit advanced, but I think that now is the right time to learn it. If you don't want to, you can apply the mirror modifier and change the object origin point like we did before.
 
 And now, appreciate your work :)
 
