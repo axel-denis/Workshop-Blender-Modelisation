@@ -4,7 +4,7 @@ In Blender, there is a tool called the 3D Cursor. This is a representation of a 
 The first useful shortcut is `SHIFT+S`, this show this beautiful menu :
 ![](../assets/shift_s.png)
 You can move your mouse to select the watnted action.
-This menu allow us to snap almost everything to everything, and here, we are looking to change the position of our 3D Cursor, so we have theeses options :
+This menu allow us to snap almost everything to everything, and here, we are looking to change the position of our 3D Cursor, so we have theses options :
 - Cursor to Grid
 - Cursor to World Origin
 - Cursor to Selected
