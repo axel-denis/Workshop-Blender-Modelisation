@@ -1,7 +1,7 @@
 # Shortcuts
 
 Blender is all about shortcuts.
-Yes, menus exists bu uut... Think of it like a game, you don't use menus to jump or move, you use your keyboard ! Same in Blender, doing it all by menus is waaaaaay to long.
+Yes, menus exists buuut... Think of it like a game, you don't use menus to jump or move, you use your keyboard ! Same in Blender, doing it all by menus is waaaaaay to long.
 
 We will cover here some of the most used shortcuts.
 If you are looking for the "shorcut version" of a menu, just hover over it and Blender will show you the shortcut ! (In most cases)
