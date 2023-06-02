@@ -24,6 +24,7 @@ Extract the zip folder and execute the `blender` file.
 Is it your first time using Blender ? Look at this beautiful UI !
 Now, first things first, try to move around the famous Default Cube that you see on your screen.
 Remember our live modeling for that, use your mouse as we showed.
+Don't forget to replace the cube at the center of the world (ALT+G)
 ([Need a reminder ?](./pages/shortcuts.md))
 
 ## Serious business
@@ -37,7 +38,7 @@ Since this is the perfect case, we'll begin with this ! Find in the [reference](
 
 ##### Need help on the process ?
 We will decompose it in smaller parts :
-- Add an image ! We showed you how to add an object. An image is an object ! Summon the Add Object menu, and look for Image > Reference. (Download the image here : [reference](./reference/ReferenceFace.png))
+- Add an image ! We showed you how to add an object (SHIFT-A). An image is an object ! Summon the Add Object menu, and look for Image > Reference. (Download the image here : [reference](./reference/ReferenceFace.png))
 - Align your image with an axis ! The easiest way is to reset its rotation with `ALT+R`.
 - Now, move it on the good axis. ([Need a reminder ?](./pages/shortcuts.md)). It's better for the reference not to intersect the cube.
 - Final step, scale your reference to match the cube ! For this, align your view to the good axis with the direction ball. Just click on the axis that you want.
