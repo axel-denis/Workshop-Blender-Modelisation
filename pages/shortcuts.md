@@ -16,6 +16,8 @@ Middle mouse button click, then move your mouse.
 When moving in the 3D space, you want to be able to quickly center your view on an object. For this, you can select an object, then use the "." of the NUMPAD if you have a numpad. If not, you can click the "²" key, then select "View Selected".
 ![image](https://user-images.githubusercontent.com/91873203/233940116-a36a4724-c29c-4822-9e61-9f646c3aa1d8.png)
 
+### Add an object
+**SHIFT+A**
 ### Select an object
 left click (did you really needed me for that ?)
 
