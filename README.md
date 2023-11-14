@@ -51,6 +51,7 @@ We will decompose it in smaller parts :
   <img src="./assets/after_scale.png" width="300">
 </p>
 Tadaaam ! Great, you have your reference image !
+/!\ In fact, just add two of them, no need for tree.
 </br>
 </br>
 <p align="center">
