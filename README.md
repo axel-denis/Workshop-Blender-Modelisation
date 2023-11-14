@@ -15,7 +15,7 @@ If you have snap :
 and execute it by typing `blender` in your terminal
 
 If not :
-Just go to [blender.org](www.blender.org/download/) and click `Download Blender`
+Just go to [blender.org](https://www.blender.org/download/) and click `Download Blender`
 (This workshop is intended on Blender 3.5.x)
 Extract the zip folder and execute the `blender` file.
 
