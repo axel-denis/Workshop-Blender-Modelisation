@@ -6,7 +6,7 @@
 
 ### Windows
 The process is very simple :
-Just go to [blender.org](www.blender.org/download/) and click `Download Blender`
+Just go to [blender.org](https://www.blender.org/download/) and click `Download Blender`
 (This workshop is intended on Blender 3.5.x)
 
 ### Linux
